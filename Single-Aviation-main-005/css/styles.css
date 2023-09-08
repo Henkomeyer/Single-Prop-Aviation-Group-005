@@ -228,6 +228,7 @@ nav .fa-bars {
   position: relative;
 }
 
+
 .contact-form p {
   color: #ebebff;
   line-height: 2.8rem;
@@ -662,6 +663,18 @@ nav .fa-bars {
   white-space: nowrap;
 }
 
+/* for quiz section*/
+.quiz{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--body-color);
+  margin-top: 10rem;
+  padding-top: 25rem;
+  padding-bottom: 25rem;
+  height: 150vh;
+  border-top-right-radius: 75px;
+}
 /* Languages Section */
 
 .language-title {

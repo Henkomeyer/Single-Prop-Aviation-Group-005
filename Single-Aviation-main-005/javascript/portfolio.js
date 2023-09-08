@@ -49,6 +49,22 @@ const projectCards = [
     specifics: ['CANOPY', 'Back End Dev', '2015'],
     specifics2: ['UBER', 'Lead Developer', '2018'],
   },
+  {
+    card: 5,
+    name: 'Pre-screening evaluation before flight',
+    name2: 'Pre-screening evaluation before flight',
+    image: 'images/profprint.svg',
+    image2: 'images/uber.svg',
+    description: `  The necessary pre-screening checks required before take-off in a single prop airplane.`,
+  },
+  {
+    card: 6,
+    name: 'Common Safety Issues',
+    name2: 'Common Safety Issues',
+    image: 'images/profprint.svg',
+    image2: 'images/uber.svg',
+    description: `  The common safety issues that may occur before or during flight in a single prop airplane.`,
+  },
 ];
 
 const portfolioSection = document.getElementById('portfolio');
@@ -209,6 +225,50 @@ const portfolio = [
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby', 'github'],
     liveButton: 'https://shaqdeff.github.io/Shaquille-Portfolio/',
     codeButton: 'https://github.com/shaqdeff/Shaquille-Portfolio',
+  },
+  {
+    name: 'Pre-screening evaluation before flight',
+    image: 'images/uber.svg',
+    description: ` Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it 1960s with
+              the releaLorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it 1960s
+              with the releorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum han printer took a
+              galley of type and scrambled it 1960s with the releawn
+              printer took a galley of type and scrambled it 1960s with
+              the releaLorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it 1960s
+              with the release.`,
+  
+  },
+  {
+    name: 'Common Safety issues ',
+    image: 'images/uber.svg',
+    description: ` Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it 1960s with
+              the releaLorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it 1960s
+              with the releorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum han printer took a
+              galley of type and scrambled it 1960s with the releawn
+              printer took a galley of type and scrambled it 1960s with
+              the releaLorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it 1960s
+              with the release.`,
+  
   },
 ];
 
