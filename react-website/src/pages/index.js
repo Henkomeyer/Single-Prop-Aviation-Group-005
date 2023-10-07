@@ -16,7 +16,7 @@ const Home = () => {
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-   <link rel="stylesheet" href="/css/styles.css" />
+   <link rel="stylesheet" href="/styles.css" />
 
  
     <script
@@ -29,7 +29,7 @@ const Home = () => {
   </head>
   
   <body>
-    <header>
+    {/* <header>
       <a href="" class="logo animation-rotate">Skeet-it</a>
       <nav>
         <div class="nav-links" id="navLinks">
@@ -53,7 +53,7 @@ const Home = () => {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </header>
+    </header> */}
     <section class="headline-section">
       <h1>
         I’m Aeroplane, <br />

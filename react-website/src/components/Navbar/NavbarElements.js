@@ -52,3 +52,7 @@ white-space: nowrap; */
 }
 `;
 
+export const Logo = styled.img`
+    height: 50px; /* set the height of the logo */
+    margin-right: 15px; /* add some margin to the right */
+`;
