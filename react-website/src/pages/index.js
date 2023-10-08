@@ -4,12 +4,12 @@ const Home = () => {
 	return (
 		
 			
-    <html lang="en">
+    <div>
     <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aeroplane make fly</title>
+   
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -64,7 +64,7 @@ const Home = () => {
         website. Look through some of my work and experience! If you like what
         you see and have a project you need coded, don’t hesitate to contact me.
       </p>
-      <p class="animation-slide">LET'S CONNECT</p>
+      <p class="animation-slide">Ready for Take-Off</p>
       <ul class="header-icons">
         <li>
           <a href="https://twitter.com/shaquillendunda"
@@ -255,7 +255,7 @@ const Home = () => {
     <script src="javascript/menu.js"></script>
     <script src="javascript/portfolio.js"></script>
   </body>
-</html>
+</div>
 
 		
 	);
