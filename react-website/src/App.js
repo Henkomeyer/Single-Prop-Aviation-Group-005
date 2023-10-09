@@ -8,6 +8,7 @@ import About from './pages/about';
 import Blogs from './pages/blogs';
 import FAQ from './pages/FAQ';
 import Guide from './pages/Guidelines';
+import Quize from './Quize';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/FAQ' element={<FAQ />} />
         <Route path='/Guide' element={<Guide />} />
+        <Route path='/Quize' element={<Quize />} />
 
       </Routes>
     </Router>

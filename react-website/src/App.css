@@ -1,6 +1,63 @@
-.App {
-  text-align: center;
+/* QUIZ APP Starts HERE */
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
 }
+.Menu{
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightblue;
+  align-items:center;
+}
+.Menu button{
+width: 300px;
+height:48px;
+margin: 5px;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+cursor: pointer;
+}
+.Quiz, .ResultScreen{
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightblue;
+  align-items:center;
+}
+.Quiz button{
+  width: 300px;
+  height:48px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  }
+  .options{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/* QUIZ APP Ends Here */
+
+
+/* .App {
+  text-align: center;
+} */
 /* Hide the scrollbar */
 ::-webkit-scrollbar {
   width: 0.5rem; /* Adjust this width to control the width of the scrollbar space (optional) */

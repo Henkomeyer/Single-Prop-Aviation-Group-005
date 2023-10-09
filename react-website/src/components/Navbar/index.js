@@ -32,6 +32,9 @@ const Navbar = () => {
 					<NavLink to="/Guide" activeStyle>
 						Guidelines
 					</NavLink>
+					<NavLink to="/Quize" activeStyle>
+						Quiz
+					</NavLink>
 				</NavMenu>
 			</Nav>
 		</>
