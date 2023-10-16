@@ -11,7 +11,8 @@ function ResultScreen(){
     }
     return(
         <div className="ResultScreen">
-            <h1>Finished </h1><br/>
+            <h1>Congratulations you finished the Quiz! </h1><br/>
+            <h1>Here is your score! </h1><br/>
             <h2>Score: {score} / {Questions.length}</h2>
             <button onClick={restart}>Restart</button> 
         </div>
