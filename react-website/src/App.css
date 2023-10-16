@@ -31,7 +31,7 @@ cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("C:\Users\hardu\OneDrive\Desktop\Assignments\3rd year\Project381\Single-Prop-Aviation-Group-005\react-website\src\pages\images\Pilatus-Aircraft-Ltd-news-pc-12-preview.jpg");
+  background-image: url("./pages/images/Pilatus-Aircraft-Ltd-news-pc-12-preview.jpg");
   align-items:center;
 }
 .Quiz button{
