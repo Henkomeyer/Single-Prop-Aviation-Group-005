@@ -9,7 +9,8 @@ function Quiz(){
 
         const nextQuestion = ()=>{
             if (Questions[currentQuestion].answer === Selected) {
-                setScore(score+1);   
+                setScore(score+1);
+                
         }
         setCurrentQuestion(currentQuestion +1);
     }
@@ -20,7 +21,6 @@ function Quiz(){
     setGameState("result");
     }
        return <div className="Quiz">
-       
     <h1 >{Questions[currentQuestion].prompt}</h1>
     <div className="options"> 
     <button onClick={()=>{setSelected("A")}}>{Questions[currentQuestion].optionA}</button>
@@ -30,8 +30,8 @@ function Quiz(){
     </div>
 
     {currentQuestion === Questions.length-1 ? (
-        <button className="next" onClick={finishQuiz}>Finish</button>
-    ):(<button className="next" onClick={nextQuestion}>Next Question</button>)
+        <button onClick={finishQuiz}>Finish</button>
+    ):(<button onClick={nextQuestion}>Next Question</button>)
     }
    
         </div>
