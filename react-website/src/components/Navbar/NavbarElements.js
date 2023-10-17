@@ -1,29 +1,42 @@
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
+import menuBackground from './menuBack.svg'; 
 
 export const Nav = styled.nav`
-  background: #fff;
+ 
+  background-image: url(${menuBackground}); // Use the imported SVG as a background image
+  background-size: cover;
   height: 85px;
   display: flex;
   justify-content: space-between;
-  
+  padding-right: 2%;
   z-index: 12;
 `;
 
 export const NavLink = styled(Link)`
-  color: #808080;
+  color: #fff;
   display: flex;
   align-items: center;
   text-decoration: none;
+  font-size: x-large;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
   &.active {
-    color: #4d4dff;
+    color: #fff;
+    text-underline-position: under;
+    text-decoration: underline;
+    font-family: fantasy;
+    letter-spacing: 1.35px;
+
   }
   &:hover {
-    color: #61dafb;
+    font-size: 140%;
+    letter-spacing: 1.25px;
+    font-family: fantasy;
+    transition: all 0.6s ease-in-out;
+   
   }
 `;
 

@@ -1,14 +1,14 @@
 import React from "react";
 import { Nav, NavLink, NavMenu }
 	from "./NavbarElements";
-import logo from "./Logo.png"; // import your logo image
+import logo from "./Logo.svg"; // import your logo image
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const Navbar = () => {
 	const logoStyles = {
-		width: "200px", 
+		width: "80%", 
 		height: "auto", 
-		margin: "30px auto 0 20px", 
+		marginTop: "-31%", 
 	  };
 	return (
 		<>
