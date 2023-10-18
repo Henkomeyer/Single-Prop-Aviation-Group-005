@@ -1,26 +1,33 @@
 export const Questions = [
     {
-        prompt:"What is 5*7?",
-        optionA:"24",
-        optionB: "30" ,
-        optionC :"35",
-        optionD :"29",
+        prompt:"How many sections of checks are there in a paper checklist?",
+        optionA:"4",
+        optionB: "7" ,
+        optionC :"5",
+        optionD :"8",
+        answer:"D"
+    },
+    {
+        prompt:"Which of the following is not a section on the paper checklist?",
+        optionA:"Taxi",
+        optionB: "Before Take-off" ,
+        optionC :"Before Entering",
+        optionD :"After Start",
         answer:"C"
     },
     {
-        prompt:"What is Software Engineering?",
-        optionA:"Fun",
-        optionB: "Hell" ,
-        optionC :"Complicated",
-        optionD :"Stupid",
+        prompt:"Other than the normal pre-flight checklist, which of the following is a type of checklist used by pilots?",
+        optionA:"Abnormal Checklist- correct",
+        optionB: "Elongated Checklist" ,
+        optionC :"Priority Checklist",
+        optionD :"Secondary Checklist",
         answer:"A"
     },
-    {
-        prompt:"What is Biology?",
-        optionA:"Blue",
-        optionB: "Nature" ,
-        optionC :"Cars",
-        optionD :"Trees",
-        answer:"B"
-    },
+   { prompt:"Which of the following checklist formats are the most used in aviation?",
+    optionA:"Vocal Checklist",
+    optionB: "Paper Checklist" ,
+    optionC :"Scroll Checklist",
+    optionD :"Mechanical Checklist",
+    answer:"B"
+},
 ]
