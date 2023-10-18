@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/src/pages/images/pexels-willfried-wendefotoblend-13695930.jpg'); /* Adjust the path */
+    background-size: cover;
+    background-position: center;
+}
+
+/* FAQ Styles */
+.faq-container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: transparent; /* Set a transparent background */
+}
+
+
+.faq {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: border-color 0.3s;
+}
+
+.faq:hover {
+    border-color: #91CDF2;
+}
+
+.faq-question {
+    margin: 0;
+    padding: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    background-color: #91CDF2;
+    font-size: 24px;
+}
+
+.icon {
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 1s ease;
+}
+
+.faq-question:hover .icon {
+    transform: rotate(540deg);
+}
+
+.faq-answer {
+    padding: 30px;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+}

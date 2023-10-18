@@ -1,5 +1,5 @@
 import React from 'react';
-import BackImage from './images/backGround.svg';
+import BackImage from './images/single-prop-plane.jpeg'
 
 const Home = () => {
   return (

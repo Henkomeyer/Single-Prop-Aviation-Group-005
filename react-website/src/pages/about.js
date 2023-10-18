@@ -1,5 +1,5 @@
 import React from "react";
-import BackImage from './images/About-Background.jpg'
+import BackImage from './images/single-prop-plane.jpeg'
 const About = () => {
 	return (
 		<body style={{ overflow: 'hidden'}}>
