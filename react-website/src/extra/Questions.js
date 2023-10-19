@@ -34,7 +34,7 @@ export const Questions = [
         answer:"A"
     },
     { 
-        prompt:"Which of the following checklist formats are the most used in aviation?",
+        prompt:"Which of the following checklist devices are the most used in aviation?",
         optionA:"Vocal Checklist",
         optionB: "Paper Checklist" ,
         optionC :"Scroll Checklist",

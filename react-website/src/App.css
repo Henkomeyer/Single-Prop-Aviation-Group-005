@@ -36,7 +36,7 @@ cursor: pointer;
 }
 .Quiz button{
   width: 300px;
-  height:48px;
+  height:58px;
   margin: 10px;
   border: none;
   border-radius: 5px;
@@ -81,7 +81,7 @@ cursor: pointer;
   }
 
   button {
-    --border: 2px;   
+    --border: 1.5px;   
     --slant: 0.7em;  
     --color: #B1E1FF; 
     
