@@ -28,13 +28,36 @@ const Blogs = () => {
        </p>
     </div>
     <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
+    <h2>Human Factors</h2>
+      <h5>Human factors and there role in aviation accidents</h5>
       <div class="img">
       <image></image>
       </div>
 	  <div>
-      <p>Some text..</p>
+      <p>
+      <h5>Human Error</h5>
+        It is to be believed that roughly 75-80% of aircraft accidents are related to human error or human performance issues.
+         That's why human error is usually the starting point in aircraft mishaps rather than the end point. Human error though does not solve the problem but rather indicates where the problem came from, but it is also important not to blame human error as the sole problem as things like design flaws,
+          lack of proper training or incorrect procedures can all lead to pilots making mistakes. </p> <br></br>
+          <p>
+            <h5>Age</h5>
+            Older pilots are more likely to do better at landing aircrafts in visibility that are not good to that of pilots that are younger.
+             In studies done the age, gender and experience of pilots were analysed to see if any of those three things has a connection with aviation accidents. In the studies it was found that age and gender alone is not a cause and that whatever age or gender the pilot is does not lead to accidents.
+             The significant impact that was found is related to the pilot's experience, with pilots that has less experience has a bigger chance of making errors that lead to accidents. It was revealed that male pilots over the age of 60 and with a lot of experience has a higher risk of errors that could lead to accidents .
+          </p> <br></br>
+          <p>
+            <h5>Fatigue</h5>
+            A study done on pilot training investigated fatigue. Pilots were asked questions and had to agree or disagree. The data captured resulted in revealing that many pilots was struggling with fatigue,
+             results showed that pilots agreed to questions related to making mistakes or overlooking mistakes.
+              A high level of neutral answers was recorded on some questions that indicates that pilots could not say with certainty that they did not make mistakes which probably indicates that they were not at full focus when doing their training.
+               When asked what contributed to their fatigue it is unanimous that long working days and not enough sleep was the main influence, with health and age being the least influence.
+          </p> <br></br>
+          <p>
+            <h5>Situational awareness</h5>
+            Situation Awareness (SA) is a crucial factor in effective decision-making, especially in the dynamic flight environment. A study was conducted to determine the most common errors related to situational awareness. The study made use of the Aviation Safety Reporting System (ASRS) database and its data related to situational awareness. 
+            Three categories were created for the study being Level 1 (failure to correctly perceive the information), Level 2 (failure to comprehend the situation), or Level 3 (failure to project the situation into the future). The study indicated that 76.3% of the time the error fell in level 1, 20.3% in level 2 and only 3.4% of the time in level 3.
+             So, the results indicate that most of the time errors related to situational awareness is a result of relevant data not being available to the pilot.
+          </p> 
 	  </div>
     </div>
   </div>
