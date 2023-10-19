@@ -91,8 +91,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <img style={{ width: 520, height: 896, left: 920, top: '15%', position: 'absolute', background: 'linear-gradient(0deg, white 0%, white 100%)', borderRadius: 1000 }} src={photo1} />
-        <img style={{ width: 497, height: 806, left: 1332, top: '10%', position: 'absolute', background: 'linear-gradient(0deg, white 0%, white 100%)', borderRadius: 1000 }} src={photo2} />
+        <img style={{ width: 520, height: 896, left: '50%', top: '15%', position: 'absolute', background: 'linear-gradient(0deg, white 0%, white 100%)', borderRadius: 1000 }} src={photo1} />
+        <img style={{ width: 497, height: 806, left: '71%', top: '10%', position: 'absolute', background: 'linear-gradient(0deg, white 0%, white 100%)', borderRadius: 1000 }} src={photo2} />
       </div>
 
     </div>
