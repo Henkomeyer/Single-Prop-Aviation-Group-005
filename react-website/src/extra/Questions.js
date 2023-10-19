@@ -1,44 +1,10 @@
 export const Questions = [
     {
-        prompt:"How many sections of checks are there in a paper checklist?",
-        optionA:"4",
-        optionB: "7" ,
-        optionC :"5",
-        optionD :"8",
-        answer:"D"
-    },
-
-    {
         prompt:"What percentage of aircraft accidents are believed to be related to human error or human performance issues?",
         optionA:"50%-60%",
         optionB: "75%-80%" ,
         optionC :"20%-25%",
         optionD :"100%",
-        answer:"B"
-    },
-
-    {
-        prompt:"Which of the following is not a section on the paper checklist?",
-        optionA:"Taxi",
-        optionB: "Before Take-off" ,
-        optionC :"Before Entering",
-        optionD :"After Start",
-        answer:"C"
-    },
-    {
-        prompt:"Other than the normal pre-flight checklist, which of the following is a type of checklist used by pilots?",
-        optionA:"Abnormal Checklist- correct",
-        optionB: "Elongated Checklist" ,
-        optionC :"Priority Checklist",
-        optionD :"Secondary Checklist",
-        answer:"A"
-    },
-    { 
-        prompt:"Which of the following checklist devices are the most used in aviation?",
-        optionA:"Vocal Checklist",
-        optionB: "Paper Checklist" ,
-        optionC :"Scroll Checklist",
-        optionD :"Mechanical Checklist",
         answer:"B"
     },
     {
@@ -96,6 +62,38 @@ export const Questions = [
         optionC: "Control engine power",
         optionD: "Monitor fuel consumption",
         answer: "B"
-    }
-    
+    },
+    {
+        prompt: "How does a comprehensive pre-flight inspection contribute to aviation safety?",
+        optionA: "Enhances fuel efficiency",
+        optionB: "Spot and fix problems",
+        optionC: "Improves in-flight entertainment",
+        optionD: "Conducting taste tests of in-flight meals",
+        answer: "B"
+    },
+    {
+        prompt: "What is a crucial aspect of continuous training for pilots of single-prop airplanes?",
+        optionA: "Monitoring weather conditions",
+        optionB: "Learning aerobatic maneuvers",
+        optionC: "Keeping up with fashion trends",
+        optionD: "Staying updated on tech and safety",
+        answer: "D"
+    },
+    {
+        prompt: "Why is terrain awareness and avoidance emphasized for the safe operation of single-prop airplanes?",
+        optionA: "Improves Pilot's Eyesights",
+        optionB: "Reduce collisions with obstacles",
+        optionC: "Increase aircraft speed",
+        optionD: "Entertain passengers with terrain views",
+        answer: "B"
+    },
+    {
+        prompt: "Why is adhering to correct communication protocols crucial for pilots of single-prop aircraft?",
+        optionA: "Impress air traffic controllers",
+        optionB: "Make conversations interesting",
+        optionC: "Guarantee precise communication",
+        optionD: "Test radio equipment",
+        answer: "C"
+    },
 ]
+
