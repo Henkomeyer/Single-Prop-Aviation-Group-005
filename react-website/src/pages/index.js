@@ -77,14 +77,14 @@ const Home = () => {
               <span style={{ color: '#3E80A5', fontSize: '150%', fontFamily: 'Istok Web', fontWeight: '700', wordWrap: 'break-word' }}>Values</span>
               <span style={{ color: 'black', fontSize: '120%', fontFamily: 'Istok Web', margin: '5%', fontWeight: '600', wordWrap: 'break-word' }}><br />Safety, Education, Community.</span>
             </div>
-          </div> 
-          
+          </div>
+
           <div style={{ paddingTop: 14, paddingBottom: 25, paddingLeft: 17, paddingRight: 2, left: 46, top: 770, position: 'absolute', justifyContent: 'flex-end', alignItems: 'flex-end', display: 'inline-flex' }}>
             <div style={{ width: 304, paddingRight: 8, justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex' }}>
               <a href="https://www.belgiumcampus.ac.za" target="_blank" rel="noopener noreferrer">
                 <img style={{ width: 296, height: 168 }} src="https://www.belgiumcampus.ac.za/wp-content/uploads/2022/04/Artboard-5.png" alt="Your Alt Text" />
               </a>            </div>
-            <div style={{ width: 320, top:'5%', height: 124, paddingLeft: '16%', color: 'black', fontSize: '120%', fontFamily: '', fontWeight: '400', wordWrap: 'break-word' }}>
+            <div style={{ width: 320, top: '5%', height: 124, paddingLeft: '16%', color: 'black', fontSize: '120%', fontFamily: '', fontWeight: '400', wordWrap: 'break-word' }}>
               - Belgium Campus<br />
               - FlyedSafair<br />
               - Pesang
@@ -92,7 +92,46 @@ const Home = () => {
           </div>
         </div>
         <img style={{ width: 520, height: 896, left: '50%', top: '15%', position: 'absolute', background: 'linear-gradient(0deg, white 0%, white 100%)', borderRadius: 1000 }} src={photo1} />
-        <img style={{ width: 497, height: 806, left: '71%', top: '10%', position: 'absolute', background: 'linear-gradient(0deg, white 0%, white 100%)', borderRadius: 1000 }} src={photo2} />
+        <img style={{ width: '29%', height: 806, paddingRight: '1%' ,left: '71%', top: '10%', position: 'absolute', background: 'linear-gradient(0deg, white 0%, white 100%)', borderRadius: 1000 }} src={photo2} />
+      </div>
+      <div style={{ width: '100%', height: '40%', background: '#FFF', paddingTop: '1%'}}>
+        {/* Your existing content goes here */}
+        <div style={{ width: '50%', margin: '0 auto', marginTop: '10%', background: '#fff', borderRadius: '40px', boxShadow: '0 0 20px rgba(0, 0, 0, 0.1)'}}>
+        <div style={{ width: '100%', height: '', position: 'relative', backgroundColor: '#fff', textAlign: 'center', marginTop: '6%' }}>
+        </div>
+          <form style={{ width: '100%', padding: '20px'}}>
+          <h2 style={{margin: 20, fontFamily: '', fontSize: 'xx-Large', color: '#3D7EA4'}}>Get In Contact</h2>
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <input class = 'text-input bin' type="text" placeholder="Your Name" />
+              <input class = 'text-input bin' type="email" placeholder="Your Email" />
+              <textarea class = 'text-area bin' placeholder="Your Message" rows="4" />
+              <button class = 'bitbutton' type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div style={{ width: '100%', background: '', color: '#fff', padding: '20px 0' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' , gap: '5%'}}>
+          <div style={{ flex: 1 , marginLeft: '1%', textAlign: 'center', backgroundColor: '#00000059' ,borderRadius: '40px', boxShadow: '0 0 20px rgba(0, 0, 0, 0.1)'
+}}>
+            <h2 class = 'title01'>Contact Us</h2>
+            <p>Email: turbelence.air@gmail.com</p>
+            <p>Phone: (082) 456-7890</p>
+            <p>Address: 123 Main Street, Pretoria, South Africa</p>
+          </div>
+          <div style={{ flex: 1 , marginRight: '1%', textAlign: 'center', backgroundColor: '#00000059' ,borderRadius: '40px', boxShadow: '0 0 20px rgba(0, 0, 0, 0.1)', marginBottom: '2%'}}>
+            <h2 class = 'title01'>Creators</h2>
+            <p>Website created by:</p>
+            <p >- Henko Meyer</p>
+            <p >- Hardus Lotter</p>
+            <p >- Derik Pieterse</p>
+            <p >- Henko Steyn</p>
+
+          </div>
+        </div>
+        <div style={{textAlign: 'center',width: '20%', margin: 'auto', padding: '1px', backgroundColor: '#00000059' ,borderRadius: '40px' }}>
+          <p>&copy; {new Date().getFullYear()} Turbulence</p>
+        </div> 
       </div>
 
     </div>

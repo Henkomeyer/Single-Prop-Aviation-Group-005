@@ -945,8 +945,8 @@ form {
 
 input[type="text"],
 input[type="email"] {
-  width: 35rem;
-  border: none;
+  width: 100%;
+  border: 1px solid #dfe1e6;
   outline: none;
   padding: 1.5rem 1rem;
   margin-bottom: 1.2rem;
@@ -955,15 +955,13 @@ input[type="email"] {
   color: var(--headings-color);
 }
 
-#err-msg {
-  color: rgb(135, 1, 1);
-  font-size: 1.6rem;
-}
+
 
 textarea {
   width: 35rem;
   height: 20rem;
   resize: none;
+
   border-radius: 8px;
   color: #b3bac5;
   padding: 1.5rem;
