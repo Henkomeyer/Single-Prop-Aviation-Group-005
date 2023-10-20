@@ -6,14 +6,13 @@ import "./css/home.css";
 
 const Home = () => {
   return (
-
     <div style={{ width: "100%", height: 2080, background: 'white' }}>
       <div style={{ width: "100%", height: 1080, position: 'relative', background: 'linear-gradient(0deg, rgba(196.56, 196.56, 196.56, 0.15) 0%, rgba(196.56, 196.56, 196.56, 0.15) 100%)' }}>
         <img src={BackImage} style={{ width: '100%', height: "130%", position: 'absolute' }} alt="Your alt text" />
         <div style={{ width: "100%", height: 540, background: 'rgba(64, 64, 64, 0)' }}>
-          <div style={{ width: "80%", height: 111, left: "10%", top: '10%', position: 'absolute', textAlign: 'center', lineHeight: '70%', color: '#B1E1FF', fontSize: "450%", fontFamily: 'inter', fontStyle: "bold", fontWeight: '700', wordWrap: 'break-word' }}>Welcome to Turbulence</div>
-          <div style={{ width: "80%", height: 42, left: "10%", top: "18%", position: 'absolute', textAlign: 'center', lineHeight: '70%', color: '#D6D6D6', fontSize: 48, fontFamily: 'Inter', fontWeight: '300', wordWrap: 'break-word' }}>Your Digital Safety Guideline</div>
-          <div style={{ width: "45%", height: 320, left: "26%", top: "30%", position: 'absolute', textAlign: 'center', lineHeight: 1, color: '#C6DAE8', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word' }}>Whether you're a seasoned pilot or just starting your journey, we're here to address the unique safety challenges of single prop aviation, covering everything from weather-related risks to emergency procedures. We provide expert insights, checklists, and essential resources to ensure your safety is a top priority. Stay informed, join our community, and make safety your constant companion in the skies. Welcome to Turbulence, where aviation safety takes flight.</div>
+          <div style={{ width: "80%", height: 111, left: "10%", top: '10%', position: 'absolute', textAlign: 'center', lineHeight: '70%', color: '#B1E1FF', fontSize: "450%", fontFamily: 'Anton', fontStyle: "bold", fontWeight: '500', wordWrap: 'break-word' }}>Welcome to Turbulence</div>
+          <div style={{ width: "80%", height: 42, left: "10%", top: "18%", position: 'absolute', textAlign: 'center', lineHeight: '70%', color: '#D6D6D6', fontSize: 48, fontFamily: 'Anton', fontWeight: '200', wordWrap: 'break-word' }}>Your Digital Safety Guideline</div>
+          <div style={{ width: "45%", height: 320, left: "26%", top: "30%", position: 'absolute', textAlign: 'center', lineHeight: 1, color: '#C6DAE8', fontSize: 32, fontFamily: 'Anton', fontWeight: '200', wordWrap: 'break-word' }}>Whether you're a seasoned pilot or just starting your journey, we're here to address the unique safety challenges of single prop aviation, covering everything from weather-related risks to emergency procedures. We provide expert insights, checklists, and essential resources to ensure your safety is a top priority. Stay informed, join our community, and make safety your constant companion in the skies. Welcome to Turbulence, where aviation safety takes flight.</div>
         </div>
       </div>
       {/* Offer */}
@@ -50,31 +49,31 @@ const Home = () => {
         </div>
         <div style={{ width: '100%', height: 118, paddingTop: 17, paddingLeft: 6, justifyContent: 'center', paddingRight: 15, top: 114, position: 'absolute', background: 'white', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex' }}>
           <div style={{ width: '100%', height: 101, textAlign: 'center' }}>
-            <span style={{ color: '#3D7EA4', fontSize: 85, fontFamily: 'Mukta', fontWeight: '700', wordWrap: 'break-word' }}>What we </span>
-            <span style={{ color: 'black', fontSize: 85, fontFamily: 'Mukta', fontWeight: '700', wordWrap: 'break-word' }}>Offer</span>
+            <span style={{ color: '#3D7EA4', fontSize: 85, fontFamily: 'Anton', fontWeight: '500', wordWrap: 'break-word' }}>What we </span>
+            <span style={{ color: 'black', fontSize: 85, fontFamily: 'Anton', fontWeight: '600', wordWrap: 'break-word' }}>Offer</span>
           </div>
         </div>
       </div>
       {/* Start of new section */}
       <div style={{ width: '100%', height: 1156, background: '#fff', position: 'relative' }}>
         <div style={{ width: '38%', height: 983, left: 112, top: 89, position: 'absolute', background: 'white', boxShadow: '-5px 8px 20px rgba(0, 0, 0, 0.10)', borderRadius: 40, overflow: 'hidden' }}>
-          <div style={{ width: 493, height: 88, left: 121, top: '5%', position: 'absolute', textAlign: 'center', color: '#3E80A5', fontSize: '280%', fontFamily: 'Istok Web', fontWeight: '700', wordWrap: 'break-word' }}>Assisting Pilots</div>
+          <div style={{ width: 493, height: 88, left: 121, top: '5%', position: 'absolute', textAlign: 'center', color: '#3E80A5', fontSize: '280%', fontFamily: 'Anton', fontWeight: '600', wordWrap: 'break-word' }}>Assisting Pilots</div>
           <div style={{ width: '80%', height: 61, left: 107, top: '76%', position: 'absolute', textAlign: 'center' }}>
-            <span style={{ color: 'black', fontSize: 48, fontFamily: 'Istok Web', fontWeight: '700', wordWrap: 'break-word' }}>Our</span>
-            <span style={{ color: '#3E80A5', fontSize: 48, fontFamily: 'Istok Web', fontWeight: '700', wordWrap: 'break-word' }}> Stakeholders</span>
+            <span style={{ color: 'black', fontSize: 48, fontFamily: 'Anton', fontWeight: '600', wordWrap: 'break-word' }}>Our</span>
+            <span style={{ color: '#3E80A5', fontSize: 48, fontFamily: 'Anton', fontWeight: '500', wordWrap: 'break-word' }}> Stakeholders</span>
           </div>
-          <div style={{ width: 379, height: 65, left: '17%', top: '10%', position: 'absolute', textAlign: 'center', color: '#1E1E1E', fontSize: 48, fontFamily: 'Istok Web', fontWeight: '400', wordWrap: 'break-word' }}>around the globe</div>
+          <div style={{ width: 379, height: 65, left: '17%', top: '10%', position: 'absolute', textAlign: 'center', color: '#1E1E1E', fontSize: 48, fontFamily: 'Anton', fontWeight: '300', wordWrap: 'break-word' }}>around the globe</div>
           <div style={{ width: 665, height: 560, left: 40, top: 186, position: 'absolute' }}>
             <div style={{ width: '80%', height: 199, left: 18, top: 0, position: 'absolute' }}>
-              <span style={{ color: '#3E80A5', fontSize: '150%', fontFamily: 'Istok Web', fontWeight: '700', wordWrap: 'break-word' }}>Our Mission</span>
+              <span style={{ color: '#3E80A5', fontSize: '150%', fontFamily: 'Anton', fontWeight: '400', wordWrap: 'break-word' }}>Our Mission</span>
               <span style={{ color: 'black', fontSize: '120%', fontFamily: 'Istok Web', margin: '5%', fontWeight: '600', wordWrap: 'break-word' }}><br></br>Our mission at Aviation is to empower single prop aviation enthusiasts with the knowledge, tools, and resources to prioritize safety above all else, ensuring each flight is a secure and exhilarating experience.</span>
             </div>
             <div style={{ width: '80%', height: 199, left: 18, top: '33%', position: 'absolute' }}>
-              <span style={{ color: '#3E80A5', fontSize: '150%', fontFamily: 'Istok Web', fontWeight: '700', wordWrap: 'break-word' }}>Vision</span>
+              <span style={{ color: '#3E80A5', fontSize: '150%', fontFamily: 'Anton', fontWeight: '400', wordWrap: 'break-word' }}>Vision</span>
               <span style={{ color: 'black', fontSize: '120%', fontFamily: 'Istok Web', margin: '5%', fontWeight: '600', wordWrap: 'break-word' }}><br /> Our vision is a single prop aviation community where safety is ingrained in every aspect of flight, creating a world where pilots, beginners, and experts alike can enjoy the freedom of the skies with confidence and peace of mind.</span>
             </div>
             <div style={{ width: 647, height: 100, left: 18, top: '68%', position: 'absolute' }}>
-              <span style={{ color: '#3E80A5', fontSize: '150%', fontFamily: 'Istok Web', fontWeight: '700', wordWrap: 'break-word' }}>Values</span>
+              <span style={{ color: '#3E80A5', fontSize: '150%', fontFamily: 'Anton', fontWeight: '400', wordWrap: 'break-word' }}>Values</span>
               <span style={{ color: 'black', fontSize: '120%', fontFamily: 'Istok Web', margin: '5%', fontWeight: '600', wordWrap: 'break-word' }}><br />Safety, Education, Community.</span>
             </div>
           </div>
@@ -124,7 +123,11 @@ const Home = () => {
             <p>Website created by:</p>
             <p >- Henko Meyer</p>
             <p >- Hardus Lotter</p>
+<<<<<<< Updated upstream
             <p >- Derik Pieterse</p>
+=======
+            <p >- George Pieterse</p>
+>>>>>>> Stashed changes
             <p >- Henko Steyn</p>
 
           </div>
