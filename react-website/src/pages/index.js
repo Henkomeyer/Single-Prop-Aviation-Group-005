@@ -124,7 +124,7 @@ const Home = () => {
             <p>Website created by:</p>
             <p >- Henko Meyer</p>
             <p >- Hardus Lotter</p>
-            <p >- Derik Pieterse</p>
+            <p >- Georg Pieterse</p>
             <p >- Henko Steyn</p>
 
           </div>
