@@ -1,31 +1,33 @@
 /* QUIZ APP Starts HERE */
+
 .App{
-  font-family: 'Lato';
+  font-family: 'Anton', sans-serif;
   display: flex;
   justify-content: center;
   align-items:center;
   flex-direction: column;
+  background-attachment: fixed;
 }
 .Menu p{
   margin:15px;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
   justify-content: center;
   margin-bottom: 140px;
-  color: #B1E1FF;
+  color: #4aadeb;
 }
 .Menu button{
-width: 300px;
-height:48px;
+width: 350px;
+height:58px;
 margin-top: 30px;
 border: none;
 border-radius: 5px;
-font-size: 20px;
+font-size: 25px;
 cursor: pointer;
 }
 .Quiz, .ResultScreen, .Menu{
-  height: 720px;
-  width: 1200px;
+  height: 1080px;
+  width: 1920px;
   background-size: 100%;
   border-radius: 10px;
   display: flex;
@@ -70,20 +72,20 @@ cursor: pointer;
   }
   .Quiz h1{
     font-size: 35px;
-    color: #B1E1FF;
+    color: #4aadeb;
   }
   .ResultScreen h1 {
     font-size: 35px;
-    color: #B1E1FF}
+    color: #4aadeb}
   .ResultScreen h2 {
     font-size: 25px;
-    color: #B1E1FF;
+    color: #4aadeb;
   }
 
   button {
     --border: 1.5px;   
     --slant: 0.7em;  
-    --color: #B1E1FF; 
+    --color: #4aadeb; 
     
     font-size: 35px;
     padding: 0.4em 1.2em;

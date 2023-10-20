@@ -123,11 +123,7 @@ const Home = () => {
             <p>Website created by:</p>
             <p >- Henko Meyer</p>
             <p >- Hardus Lotter</p>
-<<<<<<< Updated upstream
-            <p >- Derik Pieterse</p>
-=======
             <p >- George Pieterse</p>
->>>>>>> Stashed changes
             <p >- Henko Steyn</p>
 
           </div>

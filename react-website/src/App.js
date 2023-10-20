@@ -10,6 +10,7 @@ import FAQ from './pages/FAQ';
 import Guide from './pages/Guidelines';
 import Quize from './Quize';
 
+
 function App() {
   return (
     <Router>
