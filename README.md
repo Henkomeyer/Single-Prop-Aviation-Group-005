@@ -2,6 +2,11 @@
 
 ## Aviation Project for our 3rd-year final project
 
+## To start the Project Run 
+- cd react-website 
+- npm i 
+- npm start
+
 **Group Members:**
 - Henko Meyer
 - George Frederik Pieterse
