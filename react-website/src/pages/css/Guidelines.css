@@ -19,6 +19,8 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    font-family: 'Anton', sans-serif;
+
 }
 
 .guideline-section {
@@ -41,7 +43,7 @@
 .guideline-section li {
     margin-bottom: 20px;
     font-size: 18px;
-    background-color: #91CDF2;
+    background-color:#4aadeb;
     color: #fff;
     padding: 15px;
     border-radius: 10px;

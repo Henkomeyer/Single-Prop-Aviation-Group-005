@@ -1,6 +1,6 @@
 
   body {
-    font-family: Arial;
+    font-family: 'Anton', sans-serif;
     background: #f1f1f1;
     background-attachment: fixed;
   }
@@ -16,7 +16,7 @@
   }
   .card {
     width: 80%;
-    background-color: #91CDF2;
+    background-color: #4aadeb;
     margin-left: 150px;
     padding: 35px;
     margin-top: 20px;
@@ -42,13 +42,7 @@
     display: table;
     clear: both;
   }
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
-  
+ 
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {

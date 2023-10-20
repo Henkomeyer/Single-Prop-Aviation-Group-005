@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Anton', sans-serif;
     margin: 0;
     padding: 0;
     background-image: url('/src/pages/images/pexels-willfried-wendefotoblend-13695930.jpg'); /* Adjust the path */
@@ -26,7 +26,7 @@ body {
 }
 
 .faq:hover {
-    border-color: #91CDF2;
+    border-color:#4aadeb;
 }
 
 .faq-question {
@@ -37,7 +37,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     color: #fff;
-    background-color: #91CDF2;
+    background-color: #4aadeb;
     font-size: 24px;
 }
 
