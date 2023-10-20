@@ -1,7 +1,5 @@
-// Guidelines.jsx
-
 import React from 'react';
-import './css/Guidelines.css'; // Import your CSS file for styling
+import './css/Guidelines.css'; 
 
 const SafetyChallenges = () => {
     return (
