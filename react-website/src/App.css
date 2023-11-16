@@ -8,26 +8,27 @@
   flex-direction: column;
   background-attachment: fixed;
 }
+
 .Menu p{
-  margin:15px;
-  font-size: 35px;
+  margin-top:25px;
+  font-size: 45px;
   font-weight: bold;
   justify-content: center;
   margin-bottom: 140px;
-  color: #4aadeb;
+  color: #ffff;
 }
 .Menu button{
-width: 350px;
+width: 400px;
 height:58px;
-margin-top: 30px;
+margin-top: 70px;
 border: none;
 border-radius: 5px;
-font-size: 25px;
+font-size: 30px;
 cursor: pointer;
 }
 .Quiz, .ResultScreen, .Menu{
   height: 1080px;
-  width: 1920px;
+  width: 2130px;
   background-size: 100%;
   border-radius: 10px;
   display: flex;
@@ -46,13 +47,13 @@ cursor: pointer;
   cursor: pointer;
   }
   .Quiz .next{
-    width: 350px;
+  width: 350px;
   height:48px;
   margin: 10px;
   border: none;
   border-radius: 5px;
-  font-size: 20px;
   cursor: pointer;
+  font-size: 25px;
   }
   .ResultScreen button{
     width: 300px;
@@ -64,6 +65,7 @@ cursor: pointer;
     cursor: pointer;
   }
   .options{
+    margin: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -72,13 +74,13 @@ cursor: pointer;
   }
   .Quiz h1{
     font-size: 35px;
-    color: #4aadeb;
+    color: #fff;
   }
   .ResultScreen h1 {
-    font-size: 35px;
-    color: #4aadeb}
+    font-size: 45px;
+    color: #fff}
   .ResultScreen h2 {
-    font-size: 25px;
+    font-size: 35px;
     color: #4aadeb;
   }
 
