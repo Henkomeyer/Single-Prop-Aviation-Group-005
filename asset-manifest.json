@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Single-Prop-Aviation-Group-005/static/css/main.e26212ff.css",
+    "main.js": "/Single-Prop-Aviation-Group-005/static/js/main.19452de9.js",
+    "static/media/history.mp4": "/Single-Prop-Aviation-Group-005/static/media/history.f42819a2fb45c3a2ad01.mp4",
+    "static/media/backGround.svg": "/Single-Prop-Aviation-Group-005/static/media/backGround.f8ce3df5e181d3b5d25526b9c2a27177.svg",
+    "static/media/menuBack.svg": "/Single-Prop-Aviation-Group-005/static/media/menuBack.53b735a329053c64a277fa28dbc005ca.svg",
+    "static/media/pexels-willfried-wendefotoblend-13695930.jpg": "/Single-Prop-Aviation-Group-005/static/media/pexels-willfried-wendefotoblend-13695930.bc90cf17106ea2775962.jpg",
+    "static/media/Prop.jpg": "/Single-Prop-Aviation-Group-005/static/media/Prop.c1219365f72e38947614.jpg",
+    "static/media/redplane.jpg": "/Single-Prop-Aviation-Group-005/static/media/redplane.e946f63a95839823c114.jpg",
+    "static/media/console.jpg": "/Single-Prop-Aviation-Group-005/static/media/console.1fb5099f143ca6c3babe.jpg",
+    "static/media/Pilatus-Aircraft-Ltd-news-pc-12-preview.jpg": "/Single-Prop-Aviation-Group-005/static/media/Pilatus-Aircraft-Ltd-news-pc-12-preview.a34a82b09040e340fcad.jpg",
+    "static/media/About-Background.jpg": "/Single-Prop-Aviation-Group-005/static/media/About-Background.21408029a8fec953a543.jpg",
+    "static/media/Logo.svg": "/Single-Prop-Aviation-Group-005/static/media/Logo.ca34080de60b3a0b37bafc697297a1af.svg",
+    "index.html": "/Single-Prop-Aviation-Group-005/index.html",
+    "main.e26212ff.css.map": "/Single-Prop-Aviation-Group-005/static/css/main.e26212ff.css.map",
+    "main.19452de9.js.map": "/Single-Prop-Aviation-Group-005/static/js/main.19452de9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e26212ff.css",
+    "static/js/main.19452de9.js"
+  ]
+}
