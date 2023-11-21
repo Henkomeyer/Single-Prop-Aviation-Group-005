@@ -1,6 +1,6 @@
 import React from 'react';
 import "./css/blog.css";
-import Video from './images/The history of aviation safety Putting passengers safety first_480p.mp4';
+import Video from './images/history.mp4';
 
 const Blogs = () => {
   return (
