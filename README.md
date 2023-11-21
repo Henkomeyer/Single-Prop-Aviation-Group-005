@@ -12,7 +12,6 @@
 - George Frederik Pieterse
 - Jacobus Gerhardus Lotter
 - Henko Steyn
-- Hayden Austin
 
 ## Project Description
 
